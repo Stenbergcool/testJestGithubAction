@@ -1,6 +1,6 @@
 const locationReturner = require('./modul')
 jest.mock()
-describe('testing test', () =>{
+describe('testing test', () => {
   test('Returns an Object', () => {
     expect(locationReturner('stockholm')).toBeInstanceOf(Object)
   })
